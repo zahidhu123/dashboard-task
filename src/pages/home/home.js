@@ -1,6 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router'
-import Header from './header/header'
+import TopNews from './top-news/topNews'
 import './home.css'
 import Sidebar from './sidebar/sidebar'
 

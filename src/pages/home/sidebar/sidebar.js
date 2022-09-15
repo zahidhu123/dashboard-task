@@ -11,29 +11,18 @@ export default function Sidebar() {
                 <div className='sidebar-box px-4'>
                     <div className='d-flex justify-content-between align-items-center mt-2 mb-3'>
                         <div className='d-flex align-items-center'>
-                            <i class="fa-solid fa-bolt bolt-img" />
                             <NavLink to={'/smartup'}>
-                            <p className='smartup m-0'>Smartup</p>
+                            <p className='smartup m-0'>Dashboard</p>
                             </NavLink>
                         </div>
                         <MdFormatListBulleted />
                     </div>
                     <div className='d-flex justify-content-between align-items-center mb-4'>
                         <div className='d-flex align-items-center'>
-                            <img src={Avatar0} alt="image" className='avatar-img' />
-                            <NavLink to={'/profile'}><p className='profile m-0'>Profile</p></NavLink>
-                        </div>
-                        <div className='d-flex align-items-center'>
-                            <span className='num-style'>12</span>
-                            <MdNotificationsNone className='notification-img' />
-                        </div>
-                    </div>
-                    <div className='d-flex justify-content-between align-items-center mb-4'>
-                        <div className='d-flex align-items-center'>
                             <MdGridView className='fs-6 me-3' />
-                       <NavLink to={'/header'}> <p className='smartup m-0'>Discover</p></NavLink>  
+                       <NavLink to={'/top-news'}> <p className='smartup m-0'>Top News</p></NavLink>  
                         </div>
-                        <span className='num-twenty'>24</span>
+                        <span className='num-twenty'>13</span>
                     </div>
                     <div className='d-flex justify-content-between align-items-center mb-4'>
                         <div className='d-flex align-items-center'>
@@ -41,30 +30,7 @@ export default function Sidebar() {
                             <NavLink to={'/smartup'} ><p className='smartup m-0'>SmartUp</p></NavLink>
                         </div>
                     </div>
-                    <div className='d-flex justify-content-between align-items-center mb-3'>
-                        <div className='d-flex align-items-center'>
-                            <img src={Avatar0} alt="image" className='avatar-img' />
-                            <NavLink to={'/man-community'}><p className='profile m-0'>Man community</p></NavLink>
-                        </div>
-                    </div>
-                    <div className='d-flex justify-content-between align-items-center mb-3'>
-                        <div className='d-flex align-items-center'>
-                            <img src={Avatar0} alt="image" className='avatar-img' />
-                            <NavLink to={'/fun-community'}><p className='profile m-0'>Fun community</p></NavLink>
-                        </div>
-                    </div>
-                    <div className='d-flex justify-content-between align-items-center mb-3'>
-                        <div className='d-flex align-items-center'>
-                            <img src={Avatar0} alt="image" className='avatar-img' />
-                            <NavLink to={'/tech-community'}><p className='profile m-0'>Tech community</p></NavLink>
-                        </div>
-                    </div>
-                    <div className='d-flex justify-content-between align-items-center mb-3'>
-                        <div className='d-flex align-items-center'>
-                            <img src={Avatar0} alt="image" className='avatar-img' />
-                            <NavLink to={'/lead-community'}><p className='profile m-0'>Lead community</p></NavLink>
-                        </div>
-                    </div>
+                    
                     <div className='d-flex justify-content-between align-items-center mb-4'>
                         <div className='d-flex align-items-center'>
                             <MdPersonOutline className='fs-4 me-2' />
